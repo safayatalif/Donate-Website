@@ -1,11 +1,134 @@
-/* lets help section */
-.lets-help{
-    /* background-image: url("../images/pepole/donation10.jpg"); */
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+section {
+    margin-bottom: 200px;
+}
+
+/* lets help style */
+.lets-help {
+    background-image: url("../images/pepole/donation13.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-color: aliceblue;
     text-align: center;
+    height: 600px;
+    margin: 0;
 }
-.lets-title{
-    align-items: center;
+
+.lets-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #fffefe;
+    padding: 100px 100px 100px 2px;
+}
+
+.lets-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fffefe;
+    padding: 2px 100px 100px 100px;
+}
+
+.btn-primary {
+    width: 150px;
+    height: 50px;
+    left: 696px;
+    top: 3299px;
+    border: 0px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+}
+
+/* donate today style */
+.donate-today {
+    text-align: center;
+}
+
+.today-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+.today-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+
+.donate-amount {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.taka {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px #0000000f;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+.helight {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    ;
+}
+
+.donate-footer {
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin: 100px 20px 20px 60px;
+
+}
+/* Our Donate Plan style */
+.our-donate-plan{
+    text-align: center;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.plan-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+.mowlik-blog{
+    display: flex;
+    gap: 24px;
+}
+.mowlik-sub-blog{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    justify-content: center;
+}
+.bg-food{
+    background:#c4ebf0
+}
+.bg-shelter{
+    background: #c7c6c6;
+}
+.bg-frame{
+    background: #53cdf2;
 }
