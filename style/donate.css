@@ -1,0 +1,11 @@
+/* lets help section */
+.lets-help{
+    /* background-image: url("../images/pepole/donation10.jpg"); */
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: aliceblue;
+    text-align: center;
+}
+.lets-title{
+    align-items: center;
+}
