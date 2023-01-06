@@ -94,41 +94,95 @@ section {
     margin: 100px 20px 20px 60px;
 
 }
+
 /* Our Donate Plan style */
-.our-donate-plan{
+.our-donate-plan {
     text-align: center;
 }
-.plan-title{
+
+.plan-title {
     font-weight: 700;
     font-size: 45px;
     color: #181818;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.plan-description{
+
+.plan-description {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
     margin-bottom: 50px;
     padding: 0 50px;
 }
-.mowlik-blog{
+
+.mowlik-blog {
     display: flex;
     gap: 24px;
 }
-.mowlik-sub-blog{
+
+.mowlik-sub-blog {
     background: #FFFFFF;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
     justify-content: center;
 }
-.bg-food{
-    background:#c4ebf0
+
+.bg-food {
+    background: #c4ebf0
 }
-.bg-shelter{
+
+.bg-shelter {
     background: #c7c6c6;
 }
-.bg-frame{
+
+.bg-frame {
     background: #53cdf2;
 }
+
+/* Their lives depend on your donation style */
+/* .their-lives {} */
+
+/* .their-lives-main {}*/
+
+
+.their-lives-blog {
+    display: flex;
+    gap: 24px;
+}
+.lives-text-blog{
+    padding: 100px 20px 50px 20px;
+    
+}
+
+.lives-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.lives-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    padding: 0 50px;
+}
+
+.lives-img {
+    
+    border: none;
+    padding: 100px 20px 100px 20px;
+}
+
+.lives-img img {
+    width: 456px;
+    height: 477px;
+    left: 732px;
+    top: 2078px;
+    border-radius: 5px;
+}
+/* Get My Updates style */
