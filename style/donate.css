@@ -4,7 +4,7 @@
 }
 
 section {
-    margin-bottom: 200px;
+    margin-bottom:130px;
 }
 
 /* lets help style */
@@ -91,13 +91,18 @@ section {
     font-weight: 400;
     font-size: 18px;
     color: #B3B3B3;
-    margin: 100px 20px 20px 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 60px;
+    margin-bottom: 20px;
 
 }
 
 /* Our Donate Plan style */
 .our-donate-plan {
     text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .plan-title {
@@ -160,7 +165,7 @@ section {
     font-weight: 700;
     font-size: 45px;
     color: #181818;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -168,14 +173,14 @@ section {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     padding: 0 50px;
 }
 
 .lives-img {
     
     border: none;
-    padding: 100px 20px 100px 20px;
+    padding: 100px 20px 0px 20px;
 }
 
 .lives-img img {
@@ -186,3 +191,62 @@ section {
     border-radius: 5px;
 }
 /* Get My Updates style */
+.update-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 20px; 
+}
+.update-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 50px;
+    padding: 0 50px;   
+}
+.update-footer{
+    background: #FFF4D6;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top: 60px solid #FFF4D6;
+    border-bottom: 60px solid #FFF4D6;
+    border-radius: 5px;
+}
+#email{
+    background: #B3B3B3;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    margin: 0px;
+}
+.subscribe-btn{
+    background: #f40484;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    text-decoration: none;
+    margin: 0px;
+}
+/* footer style */
+.footer{
+    background:black;
+    background-size: cover;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #f80d0d;
+    padding:50px 10px 30px ; 
+    text-align: center;
+    font-family: serif;
+
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 15px;
+    color: #faf8f8;
+    padding: 10px 30px 30px 30px;  
+    text-align: center;
+}
